@@ -364,6 +364,111 @@ article img{
 
 .barra-navegacion{
     font-size: 16px;}
+
+.logo-rpc{
+    height: 75px;
+    width: 75px;
+    padding: 4px;}
+
+.barra-rpc a {
+    font-size: small;}
+
+    /* Sección Presentacion */
+
+.presentacion{
+    height: 381px;
+    justify-content: space-evenly;
+    padding-top:10px;}
+
+.presentacion h1{
+    font-size: 22px;}
+
+.video{
+    border: 5px solid rgb(129, 104, 104);
+    width: 398px;
+    height:223px;}
+
+    /* Sección Nosotros */
+
+.nosotros{
+    height: 190px;
+    font-size: 8pt;}
+
+.nosotros h2{
+	font-size: 30px;}
+
+.nosotros_interno img{
+   width: 190px;
+   height:89px;}
+
+.nosotros_interno p{
+    font-size: 15px;}
+
+.flecha_arriba{
+    height: 35px;
+    width: 35px;
+    margin: 6px;}
+
+    /* Sección Testimonios */
+
+#testimonios h2{
+   font-size: 30px;}
+
+.testimonios_cajas{
+    font-size: 6px;}  
+
+.testimonios_cajas{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2px;
+    justify-items: center;}
+
+#testimonios p{
+  font-style: italic;
+  font-size: 12px;}
+
+    /* Sección Contacto */
+
+#contacto{
+    height: 370px;}
+
+#contacto h2{
+    font-size: 29px;}
+
+    /* Footer */
+
+.pie_pagina{
+    height: 40px;
+    font-size: 24px;}
+
+.pie_pagina a{
+    height: 32px;}
+    
+    /* PAGINA PROFESIONALES */
+
+.profesionales_tit{
+    padding-top: 20px;
+    font-size: 17px;}
+    
+.profesionales_cajas{
+    grid-template-columns: repeat(1, 1fr);}
+}
+@media only screen and (max-width: 406px){
+
+    /* PAGINA PRINCIPAL */
+
+.flecha_arriba{
+    display:none}
+
+    /* Sección Encabezado */
+
+.barra-navegacion{
+    font-size: 16px;}
+
+.barra-rpc a {
+    font-size: small;}
+
+
 .logo-rpc{
     height: 75px;
     width: 75px;
