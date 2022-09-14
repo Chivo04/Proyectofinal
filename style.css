@@ -7,7 +7,7 @@
     width: 50px;
     margin: 5px;}
 
-    /* Body */
+/* Body */
 
 body{
     background-color: white;
@@ -16,7 +16,7 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #83a7e0 100%);}
 
-    /*Sección Header Principal con Boostrap*/
+/*Sección Header Principal con Boostrap*/
 .logo-rpc{
     height: 85px;
     width: 85px;
