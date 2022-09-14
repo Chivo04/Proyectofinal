@@ -7,7 +7,7 @@
     width: 50px;
     margin: 5px;}
 
-    /* Body Nuevo*/
+    /* Body */
 
 body{
     background-color: white;
@@ -16,7 +16,8 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #83a7e0 100%);}
 
-    /*Sección Header Principal con Boostrap*/
+    /* Sección Header Principal con Boostrap */
+
 .logo-rpc{
     height: 85px;
     width: 85px;
@@ -55,11 +56,11 @@ body{
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #8f9cdf 0%, #ceceee 100%);}
 
-.navbar-collapse {
+.navbar-collapse{
     flex-grow: 0;}
 
 
-/* Barra Navegación Páginas con Boostrap*/
+    /* Barra Navegación Páginas con Boostrap */
 
 .barra-navegacion{
     display:flex;
@@ -69,7 +70,7 @@ body{
     text-decoration: none;
     color: black;}
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link{
     color: black;}
     
 .barra-page{
@@ -105,7 +106,7 @@ body{
     width: 560px;
     height:320px;}
 
-    /* Sección Nosotros*/
+    /* Sección Nosotros */
  
 .nosotros{
     height: 390px;
@@ -166,7 +167,7 @@ article img{
 .test_6{
     background-color: pink;}
 
-    /* GRID a Testimonios*/
+    /* GRID a Testimonios */
 
 .testimonios_cajas{
     display:grid;
@@ -176,7 +177,7 @@ article img{
     justify-items: center;
     font-size: 15px;}
 
-    /*Sección Contacto*/
+    /* Sección Contacto */
 
 #contacto{
     height: 490px;
@@ -191,7 +192,7 @@ article img{
     display:flex;
     justify-content: center;}
 
-    /*Footer*/
+    /* Footer */
 
 .pie_pagina{
     position: sticky;
@@ -261,6 +262,7 @@ article img{
     display:none}
        
     /* Sección Encabezado */
+
 .barra-navegacion{
     font-size: 16px;}
 
@@ -301,12 +303,12 @@ article img{
    border-radius: 15px;}
 
 .nosotros_interno p{
-    font-size: 23px; }
+    font-size: 23px;}
 
 .flecha_arriba {
     height: 35px;
     width: 35px;
-    margin: 6px; }
+    margin: 6px;}
 
     /* Sección Testimonios */
 
@@ -343,7 +345,7 @@ article img{
     height: 40px;
     font-size: 25px;}
 
-    /* PAGINAS PROFESIONALES */
+    /* Páginas Profesionales */
 
 .profesionales_cajas{
     grid-template-columns: repeat(2, 1fr);}
@@ -355,7 +357,7 @@ article img{
 
 @media only screen and (max-width: 576px){
 
-    /* PAGINA PRINCIPAL */
+    /* Página Principal */
 
 .flecha_arriba{
     display:none}
@@ -451,7 +453,7 @@ article img{
 .pie_pagina a{
     height: 32px;}
     
-    /* PAGINA PROFESIONALES */
+    /* Página Profesionales */
 
 .profesionales_tit{
     padding-top: 20px;
@@ -462,7 +464,7 @@ article img{
 }
 @media only screen and (max-width: 350px){
 
-    /* PAGINA PRINCIPAL */
+    /* Página Principal */
 
 .flecha_arriba{
     display:none}
@@ -554,7 +556,7 @@ article img{
 .pie_pagina a{
     height: 32px;}
     
-    /* PAGINA PROFESIONALES */
+    /* Página Profesionales */
 
 .profesionales_tit{
     padding-top: 20px;
