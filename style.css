@@ -34,9 +34,12 @@ body{
     color: #234369;
     border: 1.5px solid rgb(34, 21, 145);
     border-radius: 7px;
-    min-width: 6rem;
     padding: 0.5rem .5rem;
-    transition: 0.9s;}
+    transition: 0.3s;
+    background-color: #00cfff75;}
+
+.dropdown-menu.show {
+  display: inline-block;}
     
 .desplegable:hover{
     background-color: #4158D0;
@@ -59,19 +62,27 @@ body{
 .navbar-collapse{
     flex-grow: 0;}
 
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+}
 
     /* Barra Navegación Páginas con Boostrap */
 
-.barra-navegacion{
+/* .barra-navegacion{
     display:flex;
-    justify-content: end;}
+    justify-content: end;} */
  
-.barra-page a{
+
+.navbar{
+    list-style-type: none;}
+
+.navbar a{
     text-decoration: none;
     color: black;}
 
-.navbar-light .navbar-nav .nav-link{
-    color: black;}
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    color: black;
+}
     
 .barra-page{
     width: 100%;
@@ -565,8 +576,8 @@ article img{
 .profesionales_cajas{
     grid-template-columns: repeat(1, 1fr);}
 }
-.barra-navegacion{
-    font-size: 12px;}
+/* .barra-navegacion{
+    font-size: 12px;} */
 
 .nav-link {
     display: block;
