@@ -18,6 +18,7 @@ body{
 
     /* Sección Header Principal con Boostrap */
 
+    
 .logo-rpc{
     height: 85px;
     width: 85px;
@@ -63,8 +64,7 @@ body{
     flex-grow: 0;}
 
 .navbar-light .navbar-nav .nav-link {
-    color:black;
-}
+    color:black;}
 
     /* Barra Navegación Páginas con Boostrap */
 
@@ -74,15 +74,15 @@ body{
  
 
 .navbar{
-    list-style-type: none;}
+    list-style-type: none;
+    font-size: 25px;}
 
 .navbar a{
     text-decoration: none;
     color: black;}
 
 .navbar .navbar-expand-lg .navbar-light .bg-light{
-    color: black;
-}
+    color: black;}
     
 .barra-page{
     width: 100%;
@@ -160,15 +160,14 @@ article img{
 #testimonios{
     background-image: url("./assets/img/varios/Escritura2.jpg");
     background-repeat:none;
-    background-size: cover;}
+    background-size: cover;
+    }
 
 
 #testimonios h2{
     color: rgb(47, 50, 255);
     font-size: 50px;
     text-align: center;}
-
-
 
 #testimonios p{
     font-style: italic;
@@ -182,8 +181,8 @@ article img{
     opacity: 1;}
 
 .testimonios_cajas{
-    opacity: .8;}
-
+    opacity: .8;
+   }
 
 .test_1{
     background-color: aquamarine;}
@@ -298,6 +297,8 @@ article img{
     display:none}
        
     /* Sección Encabezado */
+.navbar{
+    font-size: 15px;}
 
 .barra-navegacion{
     font-size: 16px;}
@@ -348,11 +349,16 @@ article img{
 
     /* Sección Testimonios */
 
+#testimonios{
+    z-index: -1;
+}
+
 #testimonios h2{
    font-size: 36px;}
 
 .testimonios_cajas{
-    font-size: 6px;}  
+    font-size: 6px;
+   }  
 
 .testimonios_cajas{
     grid-template-columns: repeat(2, 1fr);
@@ -361,8 +367,8 @@ article img{
     justify-items: center;}
 
 #testimonios p{
-  font-style: talic;
-  font-size: 16px;}
+    font-style: talic;
+    font-size: 16px;}
 
     /* Sección Contacto */
 
@@ -399,9 +405,6 @@ article img{
     display:none}
 
     /* Sección Encabezado */
-
-.barra-navegacion{
-    font-size: 16px;}
 
 .container-fluid{
     padding-left: var(--bs-gutter-x,0px);
@@ -498,6 +501,7 @@ article img{
 .profesionales_cajas{
     grid-template-columns: repeat(1, 1fr);}
 }
+
 @media only screen and (max-width: 350px){
 
     /* Página Principal */
@@ -572,8 +576,8 @@ article img{
     justify-items: center;}
 
 #testimonios p{
-  font-style: italic;
-  font-size: 12px;}
+    font-style: italic;
+    font-size: 12px;}
 
     /* Sección Contacto */
 
@@ -601,8 +605,6 @@ article img{
 .profesionales_cajas{
     grid-template-columns: repeat(1, 1fr);}
 }
-/* .barra-navegacion{
-    font-size: 12px;} */
 
 .nav-link {
     display: block;
